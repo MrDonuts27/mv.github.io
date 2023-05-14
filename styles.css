@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+button:hover {
+    background-color: #45a049;
+}
+
+#scoresContainer {
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#scoresContainer h2 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#scoresList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.scoreItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.scoreItem:last-child {
+    border-bottom: none;
+}
+
+.partyName {
+    font-weight: bold;
+}
+
+.partyScore {
+    color: #4caf50;
+}
+
+#totalContainer {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#topPartiesContainer {
+    margin-bottom: 20px;
+}
+
+.topPartyItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.partyRank {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #4caf50;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.partyName {
+    font-weight: bold;
+}
+
+#resetButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#resetButton:hover {
+    background-color: #d32f2f;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>คะแนนพรรค</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>พรรคที่ใช่</h1>
+    <input type="text" id="numberInput" class="number-input" maxlength="2">
+    <button class="number-button" onclick="incrementScore()">Add Score</button>
+    <div id="totalScoresContainer"></div>
+
+    <h2>Scores</h2>
+    <div id="scoresContainer"></div>
+    <div id="totalContainer"></div>
+    <h2>Top Scores</h2>
+    <div id="topPartiesContainer"></div>
+
+    <script src="script.js"></script>
+    <script>
+        // เรียกใช้ฟังก์ชัน saveScores เพื่อบันทึกคะแนนที่ถูกแก้ไขลงใน localStorage
+        saveScores("scores_2");
+
+        // เรียกใช้ฟังก์ชัน loadScores เพื่อโหลดคะแนนจาก localStorage เมื่อโหลดหน้าเว็บใหม่
+        loadScores("scores_2");
+    </script>
+</body>
+</html>
